@@ -1,0 +1,11 @@
+{
+  "standard.enable": true,
+  "standard.semistandard": true,
+  "standard.autoFixOnSave": true,
+  "emmet.syntaxProfiles": {
+    "javascript": "jsx"
+  },
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact"
+  }
+}
