@@ -16,7 +16,7 @@ const SpotSchema = new Schema({
 });
 
 SpotSchema.virtual('thumbnail_url').get(function () {
-  return `http://localhost:3333/files/${this.thumbnail}`;
+  return `http://192.168.1.109:3333/files/${this.thumbnail}`;
 });
 
 module.exports = model('Spot', SpotSchema);
