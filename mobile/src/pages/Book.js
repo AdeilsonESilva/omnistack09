@@ -50,7 +50,7 @@ export default ({ navigation }) => {
         style={styles.button}
         onPress={handleSubmit}
       >
-        <Text style={styles.buttonText}>Encontrar spots</Text>
+        <Text style={styles.buttonText}>Solicitar reserva</Text>
       </TouchableOpacity>
 
       <TouchableOpacity

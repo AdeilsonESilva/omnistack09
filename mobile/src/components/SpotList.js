@@ -19,10 +19,6 @@ const SpotList = ({ tech, navigation }) => {
         params: { tech }
       });
 
-      console.log('api', api);
-      console.log('response.data', response.data);
-      console.log('tech', tech);
-
       setSpots(response.data);
     };
 
