@@ -21,7 +21,7 @@ export default ({ navigation }) => {
     await api.post(`/spots/${id}/bookings`, {
       date
     }, {
-      user_id: userId
+      headers: { user_id: userId }
     });
 
     Alert.alert('Solicitação de reserva enviada.');
