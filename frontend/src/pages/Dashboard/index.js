@@ -16,7 +16,6 @@ export default () => {
 
   useEffect(() => {
     socket.on('booking_request', data => {
-      console.log('data', data);
       setRequests([...requests, data]);
     });
   }, [requests, socket]);
