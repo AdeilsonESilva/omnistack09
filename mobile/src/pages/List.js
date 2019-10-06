@@ -18,7 +18,6 @@ export default () => {
 
   useEffect(() => {
     AsyncStorage.getItem('user').then(userId => {
-      console.log('userId :', userId);
       const socket = socketio('http://192.168.1.109:3333', {
         query: { user_id: userId }
       });
