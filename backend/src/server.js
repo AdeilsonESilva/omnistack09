@@ -15,7 +15,7 @@ const io = socketio(server);
 const connectedUsers = {};
 
 io.on('connection', socket => {
-  const { userId } = socket.handshake.query;
+  const { user_id: userId } = socket.handshake.query;
   connectedUsers[userId] = socket.id;
 });
 

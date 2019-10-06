@@ -11,7 +11,7 @@ export default () => {
 
   const userId = localStorage.getItem('user');
   const socket = useMemo(() => socketio('http://localhost:3333', {
-    query: { userId }
+    query: { user_id: userId }
   }), [userId]);
 
   useEffect(() => {
