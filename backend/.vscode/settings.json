@@ -1,5 +1,5 @@
 {
   "standard.semistandard": true,
   "standard.autoFixOnSave": true,
-  "standard.enable": true,
+  "standard.enable": true
 }
